@@ -20,7 +20,7 @@ const cardsEl = [];
 
 const cardsData = getCardsData();
 
-//creae all cards
+//create all cards
 function createCards() {
   cardsData.forEach((data, index) => createCard(data, index));
 }
